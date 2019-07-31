@@ -1,0 +1,62 @@
+.navbar{
+    background-color:#4a87ce !important;
+}
+
+
+.nav-link{
+    font-family: "Open Sans"; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    float:left;
+}
+
+#jumbotron{
+    /*background-color:#a9e8fc !important;*/
+    background-image: url("https://picsum.photos/1500/500");
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+.h1{
+    font-family: "Open Sans"; 
+}
+.card{
+    margin: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+#card3, #card5{
+    width:140px;
+    right: 30px;
+    height:210px;
+}
+    
+#card2, #card4{
+    width:140px;
+    right: 0px;
+    height:210px;
+}
+
+#card2title, #card3title, #card4title, #card5title{
+ 
+    font-size:15px;
+    font-family: "Open Sans"; 
+
+}
+#card2txt, #card3txt, #card4txt, #card5txt{
+
+    font-size:10px;
+    font-family: "Open Sans"; 
+}
+}
+
+.row-centered {
+    text-align:center;
+}
+.footertxt{
+    font-family: "Open Sans"; 
+    font-size:12px;
+}
